@@ -722,6 +722,22 @@ input, select, textarea {
 
 /* List */
 
+#skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+	justify-content: center;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	display: inline-block;
+    font-size: 100px;
+	margin: 8px;
+    padding: 15px;
+}
 	ol {
 		list-style: decimal;
 		margin: 0 0 2rem 0;
@@ -1140,9 +1156,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
